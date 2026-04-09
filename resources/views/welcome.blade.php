@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Messanger</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
@@ -117,7 +117,8 @@
             <!-- Upload -->
             <label class="cursor-pointer p-2 rounded-full hover:bg-gray-200 transition">
                 <input type="file" name="image" accept="image/*" class="hidden">
-                📎
+                <img src="{{ asset('build/assets/f11.svg') }}" alt="imge icon">
+
             </label>
 
             <!-- Input -->

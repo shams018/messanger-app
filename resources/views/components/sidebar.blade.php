@@ -1,8 +1,8 @@
-<div class="flex w-full h-[calc(100vh-70px)]">
+<div class="flex w-full h-[calc(100vh-70px)] ">
 
-    <div class="w-[293px] h-[728px] bg-gray-100 flex flex-col items-start gap-2 px-6 py-4 ">
+    <div class="w-[293px] h-[728px] bg-gray-100 flex flex-col items-start gap-2 px-6 py-4  ">
 
-        <p class="text-[20px] font-bold text-black mb-2 ">
+        <p class="text-[20px] font-bold text-black mb-2 mt-2 ">
             Messages
         </p>
         <div class="w-[223px] h-[40px] px-4 rounded-lg bg-gray-200 flex items-center gap-2">
@@ -185,39 +185,7 @@
             </div>
         </div>
 
-        <div class="w-[223px] h-[40px] flex flex-row mt-4">
-            <img src="{{ asset('build/assets/p9.svg') }}" alt="user image">
-            <div>
-                <div class="flex flex-row ml-2 gap-2">
-                    <img src="{{ asset('build/assets/group.svg') }}" alt="icons">
-                    <p class="font-semibold">
-                        John doe
-                    </p>
-                </div>
-                <p class="text-[12px] ml-2">How are you doing?</p>
-            </div>
-            <div>
-                <p>16:45</p>
-                <img src="{{ asset('build/assets/group2.svg') }}" alt="icons" class="ml-4 mt-2">
-            </div>
-        </div>
 
 
-        <div class="w-[223px] h-[40px] flex flex-row mt-4">
-            <img src="{{ asset('build/assets/p10.svg') }}" alt="user image">
-            <div>
-                <div class="flex flex-row ml-2 gap-2">
-                    <img src="{{ asset('build/assets/group.svg') }}" alt="icons">
-                    <p class="font-semibold">
-                        John doe
-                    </p>
-                </div>
-                <p class="text-[12px] ml-2">How are you doing?</p>
-            </div>
-            <div>
-                <p>16:45</p>
-                <img src="{{ asset('build/assets/group2.svg') }}" alt="icons" class="ml-4 mt-2">
-            </div>
-        </div>
 
     </div>

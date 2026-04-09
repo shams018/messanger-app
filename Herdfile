@@ -1,0 +1,13 @@
+# Herd Configuration for Messenger App
+# This file tells Herd how to serve this Laravel project
+
+# Domain configuration
+domain: messanger-app-main.test
+
+# PHP version (optional - uses default if not specified)
+# php: 8.2
+
+# Environment file
+env: .env
+
+# Additional configuration can be added here
